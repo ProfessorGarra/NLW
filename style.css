@@ -46,6 +46,7 @@ h1 {
   color: var(--color);
   width: 3.125rem;
   height: 2.1875rem;
+  border: 1px solid red;
 }
 
 /*============== LAYOUT ============ */
