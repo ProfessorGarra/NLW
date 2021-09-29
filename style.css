@@ -42,7 +42,7 @@ h1 {
   -webkit-font-smoothing: auto;
 }
 
-.buttom {
+.button {
   color: var(--color);
   width: 3.125rem;
   height: 2.1875rem;
@@ -52,8 +52,9 @@ h1 {
 
 /*============== LAYOUT ============ */
 #header {
-  border-bottom:  1px solid #e4e4e4;
   
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 2rem ;
 }
 
 nav {
@@ -68,7 +69,7 @@ nav {
   color: var(--title-color);
 }
 
-.logo span{
+.logo span {
   color: var(--base-color);
 }
 
@@ -78,7 +79,40 @@ nav {
   margin-right: 1.5rem;
 }
 
-.section{
-padding: 5rem 0;
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.section {
+  padding: 5rem 0;
 }
 /*============== HOME  ============ */
+
+#home .container {
+  margin: 0;
+}
+
+#home .image img {
+  position: relative;
+  right: 2.93rem;
+}
+
+#home .image::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #ff0000;
+  position: absolute;
+  top: -8.5%;
+  z-index: -1;
+}
+
+#home .text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+#home .image {
+  position: relative;
+}
