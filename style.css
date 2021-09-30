@@ -96,14 +96,20 @@ nav {
 #home .image img {
   position: relative;
   right: 2.93rem;
+  
+}
+#home .image img ,
+#home .image::before{
+  border-radius: 0.25rem;
 }
 
 #home .image::before {
   content: '';
   height: 100%;
-  width: 100%;
-  background: #00ffbf;
+  width: 95%;
+  background: var(--base-color-second);
   position: absolute;
+  left: 8.25%;
   top: -8.5%;
   z-index: -1;
 }
@@ -111,6 +117,11 @@ nav {
 #home .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  text-align: center;
+}
+
+#home .text p{
+  margin-bottom: 2rem;
 }
 
 #home .image {
