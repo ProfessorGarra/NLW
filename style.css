@@ -98,6 +98,7 @@ body {
 main {
   margin-top: calc(var(--header-height) + 2rem);
 }
+
 /* ------------LOGO---------------- */
 .logo {
   font: 700 1.31rem 'Poppins', sans-serif;
@@ -137,7 +138,7 @@ nav.show .menu {
   background: var(--body-color);
 
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
 
   position: fixed;
   top: 0;
