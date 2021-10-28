@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?re3b4r');
+  src:  url('fonts/icomoon.eot?re3b4r#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?re3b4r') format('truetype'),
+    url('fonts/icomoon.woff?re3b4r') format('woff'),
+    url('fonts/icomoon.svg?re3b4r#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e900";
+}
+.icon-whatsapp:before {
+  content: "\e901";
+}
+.icon-woman-hair:before {
+  content: "\e902";
+}
+.icon-youtube:before {
+  content: "\e903";
+}
+.icon-phone1:before {
+  content: "\e904";
+}
+.icon-trim:before {
+  content: "\e905";
+}
+.icon-Vector:before {
+  content: "\e906";
+}
+.icon-Vector-1:before {
+  content: "\e907";
+}
+.icon-close:before {
+  content: "\e908";
+}
+.icon-facebook:before {
+  content: "\e909";
+}
+.icon-instagram:before {
+  content: "\e90a";
+}
+.icon-mail:before {
+  content: "\e90b";
+}
+.icon-map-pin:before {
+  content: "\e90c";
+}
+.icon-menu:before {
+  content: "\e90d";
+}
+.icon-Vector-5:before {
+  content: "\e90e";
+}
+.icon-Vector-51:before {
+  content: "\e90f";
+}
+.icon-whatsapp1:before {
+  content: "\e910";
+}
+.icon-woman-hair1:before {
+  content: "\e911";
+}
+.icon-youtube1:before {
+  content: "\e912";
+}
+.icon-map-pin1:before {
+  content: "\e913";
+}
+.icon-Vector-52:before {
+  content: "\e914";
+  color: #69b99d;
+}
+.icon-whatsapp2:before {
+  content: "\e915";
+  color: #69b99d;
+}
+.icon-woman-hair2:before {
+  content: "\e916";
+  color: #69b99d;
+}
+.icon-youtube2:before {
+  content: "\e917";
+  color: #69b99d;
+}
